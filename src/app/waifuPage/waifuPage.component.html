@@ -1,0 +1,19 @@
+<div class="topnav">
+    <a class="active" href="homePage">Home</a>
+    <a href="waifuPage">Waifu Gallery</a>
+    <a href="catPage">Cat Gallery</a>
+</div>
+
+<div class="centerPanel">
+    <div>
+        <p>WaifuTypes</p>
+        <button (click)="getWaifuPicture()">Default</button>
+        <button (click)="getNekoPicture()">Neko</button>
+        <button (click)="getShinobuPicture()">Shinobu</button>
+        <button (click)="getMeguminPicture()">Megumin</button>
+    </div>
+    <br>
+    <div>
+        <img class="image" src="{{picUrl}}" alt="neko waifu">
+    </div>
+</div>
