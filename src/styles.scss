@@ -1,7 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #ffe8c1;
+}
 .topnav {
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .topnav a {
@@ -21,14 +27,6 @@
   .topnav a.active {
     background-color: #aa0704;
     color: white;
-  }
-
-  .vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
   }
 
 .centerPanel {

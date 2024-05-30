@@ -11,7 +11,7 @@ export const appConfig = {
     provideHttpClient(),
     provideRouter([
     {
-      path      : 'homePage',
+      path      : '',
       component :homePageComponent
     },
     {

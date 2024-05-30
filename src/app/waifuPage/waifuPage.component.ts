@@ -18,7 +18,7 @@ import { HttpClientModule } from "@angular/common/http";
     public picCollection: any = [];
 
     public ngOnInit(){
-      this.getNekoPicture();
+      this.getWaifuPicture();
     }
 
     public getNekoPicture(){
